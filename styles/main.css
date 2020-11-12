@@ -20,12 +20,12 @@ body {
   background-color: var(--color-white);
 }
 
-.page {
+.xxpage {
   width: 100%;
   height: 100%;
 }
 
-.page__container {
+.xxpageContainer {
   margin: 0;
   min-width: 0;
   display: flex;
@@ -45,31 +45,31 @@ a:hover {
 }
 
 /* Navigation */
-.nav {
+.xxnav {
   text-align: right;
   width: 100%;
   padding: 15px;
   padding-right: 30px;
 }
 
-.nav__list {
+.xxnavList {
   list-style: none;
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
 
-.nav__item:not(:last-child) {
+.xxnavItem:not(:last-child) {
   margin-right: 15px;
 }
 
-.nav__item--app {
+.xxnavItem--app {
   height: 30px;
   width: 30px;
   position: relative;
 }
 
-.nav__item--app svg {
+.xxnavItem--app svg {
   width: 17px;
   height: 17px;
   position: absolute;
@@ -79,14 +79,14 @@ a:hover {
   fill: var(--color-gray-500);
 }
 
-.nav__item--profile {
+.xxnavItem--profile {
   height: 32px;
   width: 32px;
   border-radius: 50%;
   position: relative;
 }
 
-.nav__item--profile a {
+.xxnavItem--profile a {
   width: 100%;
   height: 100%;
   display: inline-block;
