@@ -33,7 +33,6 @@ body {
   min-height: 100vh;
 }
 
-/* Links */
 a:link,
 a:visited {
     text-decoration: none;
@@ -44,7 +43,6 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Navigation */
 .xxnav {
   text-align: right;
   width: 100%;
@@ -97,7 +95,6 @@ a:hover {
   border-radius: 50%;
 }
 
-/* Main */
 .main {
   text-align: center;
   margin-top: 30px;
@@ -198,7 +195,7 @@ a:hover {
     color: #222;
 }
 
-/* Footer */
+
 .footer {
     display: flex;
     justify-content: space-between;
@@ -214,7 +211,6 @@ a:hover {
     padding-left: 27px;
 }
 
-/* Media Queries */
 @media (max-width: 638px) {
     .footer {
         flex-direction: column-reverse;
